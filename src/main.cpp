@@ -31,8 +31,8 @@ Adafruit_Sensor *bme_temp = bme.getTemperatureSensor();
 Adafruit_Sensor *bme_pressure = bme.getPressureSensor();
 Adafruit_Sensor *bme_humidity = bme.getHumiditySensor();
 
-const char *SSID = "GalvanicLucipher";
-const char *PASSWORD = "9979270e0f865a15b47fd66499c557c1";
+const char *SSID = "SSID";
+const char *PASSWORD = "PASSWORD";
 
 WiFiClient client;
 PubSubClient mqtt_client(client);
